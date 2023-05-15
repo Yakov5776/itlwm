@@ -44,4 +44,4 @@ jobs:
       uses: actions/upload-artifact@v3
       with:
        name: Debug
-       path: ${{ env.BUILD_OUTPUT }}
+       path: "${{ env.BUILD_OUTPUT }}/*.zip"
